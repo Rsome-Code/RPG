@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine Specific">
+      <UniqueIdentifier>{bc3cdbb4-0c25-4c38-9d75-4c7e4ba5ef1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific">
+      <UniqueIdentifier>{dd8c1744-7cb1-4a3d-9b9a-1ffc6d32793c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animate.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation Timer.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Movable Object.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Object Sprite.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Overworld Controls.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Overworld Enemy.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Player Sprite.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Logic.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Sprite.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="XControl.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Hitbox.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Object Hitbox.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle Enemy.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle Player.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Movable UI.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle Menu.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Engine Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Overworld Player Animation.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle Player Animation.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy Hitbox.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack Bar.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Player Stats-Battle.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\NES - Final Fantasy - Light Warriors.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\grids.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\arrow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Enemy sheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Battle Menu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Att Symbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Att Bar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Player Stats.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\FOT-PopJoyStd-B.otf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\SFX\Select Cursor.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Assets\SFX\Selecting Right.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
